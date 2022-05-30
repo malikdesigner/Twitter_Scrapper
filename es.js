@@ -1,9 +1,9 @@
 const elasticsearch = require('@elastic/elasticsearch');
 const client = new elasticsearch.Client({
-    nodes: ["http://es-social-llistening.mcpsuite.com:80"],
+    nodes: [""],
     auth: {
-        username: "social-es",
-        password: "mcpes@999D"
+        username: "",
+        password: ""
     },
     keepAlive: true,
     keepAliveMsecs: 1000,
